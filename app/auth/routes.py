@@ -14,6 +14,8 @@ Base.metadata.create_all(bind=engine)
 
 router = APIRouter()
 
+#doc string (updates can be easily done)
+
 
 @router.post("/signup", response_model=schemas.UserOut)
 def signup(user: schemas.UserCreate, db: Session = Depends(get_db)):

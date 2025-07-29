@@ -14,13 +14,8 @@ from app.products.routes import router as admin_product_router
 from app.products.public_routes import router as public_product_router
 from app.cart.routes import router as cart_router
 from app.orders.routes import router as orders_router
-from app.cart.models import Cart
-from app.auth.models import User
-from app.products.models import Product
-from app.orders.models import Order, OrderItem
 
 from fastapi.responses import JSONResponse
-from fastapi.requests import Request
 from fastapi.exceptions import RequestValidationError
 from starlette.exceptions import HTTPException as StarletteHTTPException
 

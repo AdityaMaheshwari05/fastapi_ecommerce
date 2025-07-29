@@ -1,6 +1,6 @@
 from pydantic import BaseModel, EmailStr, constr
 from app.auth.models import UserRole
-
+#field validator
 
 class UserCreate(BaseModel):
     name: str

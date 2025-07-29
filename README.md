@@ -4,7 +4,7 @@ A fully-featured REST API backend for an e-commerce platform, built using **Fast
 
 ---
 
-## ✅ Features
+## Features
 
 - User signup/signin with JWT
 - Role-based access (admin, user)
@@ -19,7 +19,7 @@ A fully-featured REST API backend for an e-commerce platform, built using **Fast
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **FastAPI**
 - **PostgreSQL**
@@ -31,7 +31,7 @@ A fully-featured REST API backend for an e-commerce platform, built using **Fast
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone repo and setup virtual environment
 
